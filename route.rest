@@ -1,0 +1,25 @@
+GET http://localhost:3000/users
+
+
+###
+
+
+GET http://localhost:3000/users/6560c05e4883bb9bbf11ddf4
+
+
+###
+
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "Sai Sandeep Acharjyo",
+    "emailId" : "sandeepbay2002@gmail.com"
+}
+
+
+###
+
+
+DELETE  http://localhost:3000/users/6560c05e4883bb9bbf11ddf4
